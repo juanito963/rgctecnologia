@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estilo General para en sitio */
+body{
+    background: #3a3d47;
+    font-family: verdana;
+}
+/* Estilo para el encabezado*/
+.Superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+
+.Logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+.Menu{
+    float: left;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.Opciones li{
+    float: left;
+    list-style: none;
+    
+}
+.Opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.Opciones li a:hover{
+    background: #0d356a;
+}
+
+.Container{
+    width: 1200px;
+    margin: 10px auto;
+    background: white;
+}
+/* Estilos para los productos o servicios */
+.Cuerpo{
+    overflow: hidden;
+}
+
+.Titulo{
+    text-align: center;
+    color: #ff6600;
+    padding: 20px 0 15px 0;
+    font-size: 35px;
+}
+
+.Caja{
+    width: 380px;
+    margin: 8px;
+    border: 1px solid;
+    float: left;
+}
+
+.Subtitulo{
+    background: #1551a1;
+}
+
+.Servicios{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.Efecto{
+    cursor: pointer;
+    opacity: 0.7 ;/* Valor de 0.0 a 1.0*/
+}
+
+.Contenido{
+    text-align: justify;
+    padding: 20px;
+}
+
+.boton{
+    padding: 15px 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: white;
+    background: #144a91;
+    border-radius: 10px;
+}
+/* Estilos para la localización */
+.Localizacion{
+    text-align: center;
+    padding: 20px 015px 0;
+    font-size: 35px;
+}
+/* Estilos para el pie de pagina */
+.Pie{
+    background: #062348;
+    overflow: hidden;
+}
+
+.Izquierda{
+    width: 550px;
+    float: left;
+    padding: 20px;
+}
+
+.Derecha{
+    width: 550px;
+    float: left;
+    padding: 20px;
+}
+
+.Abajo{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.Siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+/** Espacio de Slidres - Trasnsiciones de Imagenes**/
+.Slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    }
+
+    .Slider ul{
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 16s infinite alternate;
+    }
+
+    .Slider li{
+        width: 100%;
+        list-style: none;
+    }
+
+    .Slider img{
+        width: 100%;
+    }
+
+    @keyframes cambio{ /** cambio: Identificador **/
+        0%{margin-left: 0%;}
+        20%{margin-left: 0;}
+
+        25%{margin-left: -100%;}
+        45%{margin-left: -100%;}
+
+        50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
+    }
